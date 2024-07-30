@@ -34,9 +34,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Features
 
--   List of key features of the project.
--   ...
--   ...
+- Multi theme
+- Dark mode
+- Theme colors (Material)
+- Multi locale
+- Feature rich grid with many plugins
+- Multi Grouping Grid
+- Pivot Grid
+- Grid Export to many file formats (xlsx, html, csv, etc...)
 
 ## Technologies Used
 
@@ -80,6 +85,36 @@ Steps to install and set up the project environment.
     # To create a production build, use npm run build.
 
 
+### If you are a TRIAL customer
+
+In this application example we are using some premium packages from Sencha, and you can download the addons trial version by signing
+ up the form sencha sends to you by an email with the download links
+
+[Sign up for the trial to download the zip](https://www.sencha.com/products/evaluate/)
+
+
+### Add the Add-ons Components to your Project
+
+#### Step 1: Extract the zip
+Open the zip and extract the resources into the public folder that you can keep as a reference to Ext JS resources.
+
+#### Step 2: Copy the Add-ons packages
+In this step, you copy the add-ons packages to your project. In this example we will use the Pivot and exporter add-ons as the example package.
+
+Copy the ext-addons folder [ext-addons-7.8.0-trial.zip]/packages to [project]/public/.
+
+
+
+### If you are an ACTIVE customer
+
+Download Ext JS and Ext Js Premium packages from support portal and extract it to public folder
+
+
+### Run the app
+
+    $ npm start
+
+
 ## ReExt
 
 <img src="https://www.sencha.com/wp-content/uploads/2024/03/logo-13.02-2.png" alt="ReExt" />
@@ -88,27 +123,6 @@ Steps to install and set up the project environment.
 
 A comprehensive UI components library for React. Leverage Ext JS 140+ pre-built components like grids, forms, charts, etc. to build feature-rich interfaces at incredible speed, without compromising on functionality or performance.
 
-## Estrutura do Projeto
-
-A estrutura inicial do exemplo é um ponto de partida para o seu projeto React. Sinta-se à vontade para personalizá-la e adaptá-la às suas necessidades específicas!
-
-```bash
-reext-extjs-grid-example/
-├── public/ 			# A pasta dos seus arquivos estáticos, como HTML, CSS e imagens.
-│   ├── index.html      # O arquivo HTML principal, que carrega o React App.
-│   ├── manifest.json   # Configurações para apps web progressivos (PWAs).
-│   └── ...
-├── src/            # O coração do projeto, onde seus componentes React residem.
-│   ├── ...
-│   ├── App.js      # O componente principal da sua aplicação
-│   ├── index.css   # Estilização de base para aplicação
-│   ├── index.js    # O ponto de entrada do JavaScript da sua aplicação, onde você renderiza o componente `App`
-│   └── ...
-├── .gitignore       # Define quais arquivos não devem ser rastreados pelo Git
-├── package.json     # O maestro do seu projeto, definindo dependências, scripts e configurações.
-└── README.md        # Este arquivo que você está lendo!
-
-```
 
 ### Folder Structure for Example
 
@@ -205,3 +219,10 @@ export const App = () => (
     </div>
 );
 ```
+
+
+### Next Steps:
+
+Now that you are on a successful path to building Ext JS applications with React ReExt, take some time to explore how to enhance your apps using hundreds of UI components, design, testing and debugging tools.
+
+Explore more [examples](https://examples.sencha.com/extjs/), [resources](https://www.sencha.com/resources/) and [documentation](https://docs.sencha.com/extjs/).
