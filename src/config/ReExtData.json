@@ -1,0 +1,21 @@
+{
+  "sdkversion": "7.8.0",
+  "license": "trial",
+  "toolkit": "modern",
+  "theme": "material",
+  "location": "local",
+  "urlbase": "./",
+  "debug": false,
+  "packages": {
+    "charts": true,
+    "fontawesome": true,
+    "ux": true,
+    "calendar": true,
+    "d3": true,
+    "exporter": true,
+    "pivot": true,
+    "pivotd3": true,
+    "pivotlocale": true,
+    "froalaeditor": false
+  }
+}

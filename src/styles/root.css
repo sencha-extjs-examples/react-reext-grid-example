@@ -1,0 +1,151 @@
+:root {
+    --faded-color: #f5f5f5;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-width: 100%;
+    height: 100%;
+}
+
+#root {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.flex-button.center {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ext-sencha .x-innerhtml {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+}
+
+/* app toolbar color change */
+.x-font-icon.palette:before {
+    content: "palette";
+}
+
+.x-button-green.x-button .x-inner-el {
+    background: #95c94b;
+    color: rgba(0, 0, 0, 0.8);
+    border-color: transparent;
+    transition: all 0.2s ease;
+}
+.x-button-green.x-button .x-inner-el .x-font-icon {
+    font-family: ExtJs;
+    color: rgba(0, 0, 0, 0.8);
+}
+.x-button-green.x-button.x-hovered .x-inner-el {
+    background: var(--confirm-pressed-color, rgba(256, 256, 256, 0.2));
+    border-color: transparent;
+    color: var(--color, #333);
+}
+
+/* x-rating */
+.ux-rating-picker {
+    overflow: hidden;
+    color: #ccc;
+    opacity: 0.8;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1;
+}
+.ux-rating-picker-inner {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.ux-rating-picker-value,
+.ux-rating-picker-tracker {
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    top: 0;
+    width: 0;
+    height: 100%;
+    color: #ffe850;
+}
+/* x-rating end */
+
+/* x-progress */
+.x-progress-text.x-progress-text-back {
+    background-color: #e1e1e1;
+}
+.x-progress.x-progress-danger .x-progress-bar {
+    background-color: #e53f2c;
+    background-image: none;
+}
+.x-progress.x-progress-warning .x-progress-bar {
+    background-color: #feac31;
+    background-image: none;
+}
+.x-progress.x-progress-success .x-progress-bar {
+    background-color: #27ca37;
+    background-image: none;
+}
+/* x-progress end */
+
+.x-avatar {
+    border-radius: 50%;
+    background-size: cover;
+    background-color: #e1e1e1;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30px;
+    width: 30px;
+    padding: 2px;
+    color: var(--base-dark-color, #0055b3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+
+    &.large {
+        height: 48px;
+        width: 48px;
+    }
+}
+
+.text-danger {
+    color: #e53f2c;
+}
+
+.text-success {
+    color: #27ca37;
+}
+
+.text-warning {
+    color: #feac31;
+}
+
+.text-info {
+    color: #3bc9db;
+}
+
+.danger {
+    background-color: #e53f2c;
+    border-radius: 5px;
+}
+
+.success {
+    background-color: #27ca37;
+    border-radius: 5px;
+}
+
+.warning {
+    background-color: #feac31;
+    border-radius: 5px;
+}
