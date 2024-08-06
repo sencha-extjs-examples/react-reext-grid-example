@@ -231,9 +231,8 @@ export function GridComplex() {
                             {
                                 xtype: "button",
                                 ui: "primary",
-                                text: i18next.t("NEW"),
-                                tooltip: i18next.t("TOOLTIP_EXAMPLE"),
-                                handler: "onAddButtonTap",
+                                text: i18next.t("TRY_EXTJS"),
+                                handler: "onTryButtonTap"
                             },
                             {
                                 xtype: "spacer",

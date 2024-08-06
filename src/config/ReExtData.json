@@ -10,11 +10,11 @@
     "charts": true,
     "fontawesome": true,
     "ux": true,
-    "calendar": true,
-    "d3": true,
+    "calendar": false,
+    "d3": false,
     "exporter": true,
     "pivot": true,
-    "pivotd3": true,
+    "pivotd3": false,
     "pivotlocale": true,
     "froalaeditor": false
   }
