@@ -33,7 +33,7 @@ Ext_define('ReExtExample.view.grid.grouped.GridController', {
   countryRenderer: function (value, record, dataIndex, cell, column) {
     if (record && value) {
       return (
-        '<span><img src="/resources/shared/images/flags/w20/' +
+        '<span><img src="./resources/shared/images/flags/w20/' +
         record.get('countryCode') +
         '.png" /> ' +
         record.get('countryName') +

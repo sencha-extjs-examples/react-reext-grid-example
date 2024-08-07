@@ -364,7 +364,7 @@ export function GridComplex() {
                             column
                         ) {
                             return (
-                                '<span><img src="/resources/shared/images/flags/w20/' +
+                                '<span><img src="./resources/shared/images/flags/w20/' +
                                 record.get("countryCode") +
                                 '.png" /> ' +
                                 record.get("countryName") +
