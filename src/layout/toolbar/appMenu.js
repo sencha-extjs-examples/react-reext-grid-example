@@ -5,7 +5,7 @@ export function getAppMenu() {
         {
             xtype: "component",
             cls: ["x-fab fa-react", "flex-button center"],
-            html: "React ReExt Grid",
+            html: "ReExt(React Grid)",
             flex: 1,
             style: "color: #fff; display: flex; align-items: center;",
         },
@@ -19,7 +19,7 @@ export function getAppMenu() {
                 text: i18next.t("VIDEO_TOUR"),
                 iconCls: "x-fab fa-youtube",
                 handler: function (button) {
-                    window.open("https://www.youtube.com", "_blank");
+                    window.open("https://youtu.be/oB0v2aEDTFY", "_blank");
                 },
             },
             {
